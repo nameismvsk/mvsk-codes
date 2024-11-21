@@ -1,0 +1,14 @@
+OVERVIEW:
+The Student Result System is a Java program that allows users (students) to log in using their Registered ID and Name to view their exam results. 
+The program fetches data from a hardcoded database (STUDENT_DB) and calculates the total marks and percentage for the student while showing their subject-wise performance.
+FEATURES:
+UUSER LOGIN:
+Users log in by providing their Registered ID and Name.
+STUDENT WISE-MARKS:
+Displays marks for each subject along with the Pass or Fail status (pass marks = 40).
+TOTAL MARKS AND PERCENTAGE:
+Calculates and displays the total marks and percentage for the student.
+VALADIATION:
+Ensures that the provided ID and Name match a record in the database.
+TEXT OUTPUT:
+Displays results in a formatted table in the console.
