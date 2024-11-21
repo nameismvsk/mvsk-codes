@@ -1,4 +1,4 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
+//Any one can use this code and if any one can modify it based on your requirements 
 import java.util.Scanner;
 
 public class StudentResultSystem {
