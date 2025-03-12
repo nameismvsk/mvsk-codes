@@ -1,0 +1,61 @@
+# Student Result System 📚
+
+## 📌 About
+This **Student Result System** is a simple **Java-based application** that allows students to check their results by logging in with their **Registered ID and Name**. The system verifies user details against a pre-defined student database and displays subject-wise marks, total marks, and percentage.
+
+## 🚀 Features
+
+✅ **Student Authentication** – Login using **Registered ID & Name** 🔑
+✅ **Result Display** – Shows **subject-wise marks, pass/fail status, total marks, and percentage** 📊
+✅ **Simple & Interactive UI** – Uses **console-based interaction** with emojis for better experience 🎨
+✅ **No External Libraries Required** – Runs on **core Java** without additional dependencies ⚡
+✅ **Easy Modification** – Open-source and customizable as per requirements ✏️
+
+## 🏗️ How to Use
+
+1️⃣ **Compile the Java file** using:
+   ```sh
+   javac StudentResultSystem.java
+   ```
+2️⃣ **Run the program** using:
+   ```sh
+   java StudentResultSystem
+   ```
+3️⃣ **Enter your Registered ID and Name** when prompted.
+4️⃣ **View your results** including subject-wise marks, total marks, percentage, and pass/fail status.
+5️⃣ **Modify the code** to add more features like exporting results to a file 📂
+
+## 🔍 Example Output
+
+```
+🎉 Welcome to the Student Result System! 🎉
+🎓 Please log in to check your results. 🎓
+🔑 Enter your Registered ID (e.g., ST101): ST101
+✍️ Enter your Name: Alice
+
+✅ 🎉 Login Successful! Here are your results: 🎉 ✅
++----------------+-------+------------+
+| 📖 Subject     | 📊 Marks | ✅ Pass/Fail |
++----------------+-------+------------+
+| Subject 1     |  80   | ✅ Pass    |
+| Subject 2     |  75   | ✅ Pass    |
+| Subject 3     |  70   | ✅ Pass    |
+| Subject 4     |  85   | ✅ Pass    |
+| Subject 5     |  90   | ✅ Pass    |
++----------------+-------+------------+
+
+⭐ Total Marks: 400
+📈 Percentage: 80.00%
+📄 You can now manually copy this output or implement file export for saving.
+```
+
+## 🛠️ Customization
+- Modify the **STUDENT_DB** array to add more students.
+- Enhance the program with **file export** or **GUI support**.
+- Add **grading system** based on percentage.
+
+## 🤝 Contributions
+This project is **open-source**! Feel free to contribute, improve, or modify it as per your requirements.
+
+🌟 **If you find this useful, give it a star! ⭐**
+
